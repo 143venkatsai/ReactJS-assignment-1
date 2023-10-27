@@ -1,0 +1,99 @@
+.history-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.time {
+  color: #475569;
+  font-weight: 500;
+}
+
+.domain-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6%;
+}
+
+.domain-logo {
+  height: 35px;
+}
+
+.app-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-name {
+  margin-left: 20px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.app-url {
+  margin-left: 10px;
+  color: #64748b;
+}
+.button-container {
+  margin-left: auto;
+}
+.delete-button {
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+  .history-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -20px;
+  }
+  .time {
+    margin-left: -20px;
+  }
+  .domain-details {
+    margin-left: -20px;
+  }
+  .domain-logo {
+    align-self: flex-start;
+    margin-top: 5px;
+  }
+  .app-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: -17px;
+  }
+  .app-name {
+    font-size: 18px;
+  }
+  .app-url {
+    margin-left: 20px;
+    margin-top: -15px;
+  }
+
+  .delete-button {
+    align-self: flex-start;
+    margin-left: auto;
+  }
+  .delete {
+    height: 25px;
+    margin-left: auto;
+    margin-top: -70%;
+  }
+}
